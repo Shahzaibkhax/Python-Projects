@@ -12,7 +12,7 @@ guessed_correctly = False
 
 while guessed_correctly == False and Lives > 0 :
     print(f"\n Lives remaining: {Lives}")
-    guess = int(input("/n Enter the guess :"))
+    guess = int(input("/n Enter the guess  :"))
 
     if guess < secret_number :
         print("Too Low ! Try a higher number ")
